@@ -2,12 +2,12 @@
 
 Bu dosya tez çalışmasında kullanılan veri setlerinin bilgisini vermektedir.
 
-* [1.Benign_list_big_final.csv:](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/1.Benign_list_big_final.csv) This file has list of legitimate urls. The total count is 35,300. The source of the dataset is University of New Brunswick, https://www.unb.ca/cic/datasets/url-2016.html. 
+1.Benign_list_big_final.csv:Legal URL adreslerinin olduğu veri seti.
 
-* [2.online-valid.csv:](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/2.online-valid.csv) This file is downloaded from the opensource service called PhishTank. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the latest data: https://www.phishtank.com/developer_info.php.
+2.online-valid.csv: Açık kaynaklı PhishTank üzerinden alınan veri seti.
 
-* [3.legitimate.csv:](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/3.legitimate.csv) This file has the extracted features of the 5000 legitimate URLs which are randonmly selected from the '1.Benign_list_big_final.csv' file.
+3.legitimate.csv: Legal (Benign_list_big_final.cs) URL adreslerin 5000 adet rasgele seçildi.
 
-* [4.phishing.csv](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/4.phishing.csv) This file has the extracted features of the 5000 phishing URLs which are randonmly selected from the '2.online-valid.csv' file.
+4.phishing.csv: İllegal(PhishTank) adresler arasından 5000 adet seçildi.
 
-* [5.urldata.csv](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/5.urldata.csv) This file is nothing but a combination of the above two files. It contains extracted features of 10,000 URLs both legitimate & phishing.
+5.urldata.csv: Legal ve İllegal URL adreslerinin bulunduğu veri seti.
